@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>rockpaperscissor</title>
+  <link rel="stylesheet" href="rockpapersci.css">
+</head>
+
+<body>
+  <h1 class="header">Rock Paper Scissor Game</h1>
+  <div class="button-element">
+    <button class="btn" onclick="displayText('Rock')">
+      <img src="icon.png" class="image" alt="Rock">
+    </button>
+    <button class="btn" onclick="displayText('Paper')">
+      <img src="papy.png" class="image" alt="Paper">
+    </button>
+    <button class="btn" onclick="displayText('Scissor')">
+      <img src="scissors.png" class="image" alt="Scissor">
+    </button>
+  </div>
+
+  <div class="result">
+    <p class="p1-tag"> Your move : <span id="your-move"> </span></p>
+    <p class="p2-tag"> Computer move : <span id="comp-move"> </span></p>
+    <h4 class="status_c" id="status"></h4>
+    <div class="container">
+      <h4 id="myWin" class="box-1">MY WIN = 0 </h4>
+      <h4 id="compWin" class="box-2">COMPUTER WIN = 0</h4>
+    </div>
+  </div>
+
+  <script src="rockpapersci.js">
+  </script>
+</body>
+
+</html>
